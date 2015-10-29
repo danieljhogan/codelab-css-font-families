@@ -1,16 +1,25 @@
 <!doctype html>
 <html>
   <head>
-    <title>Daniel J. Hogan's webpage!</title>
+    <title>Daniel J. Hogan's Font Stuff!</title>
     <style>
-    body {
-  font-family: 'Cinzel', serif;
-  font-size: 50px;
+    @font-face {
+  font-family: 'karmatic-arcade';
+  src:  url('ka1.ttf') format('truetype')
 }
+      .cinzel-google {
+      font-family: 'Cinzel', serif;
+      font-size: 50px;
+      }
+      .da-font {
+        font-family: 'karmatic-arcade';
+        font-size: 30px;
+      }
   </style>
   <link href='https://fonts.googleapis.com/css?family=Cinzel:700,400' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <p>If you think this is something, you should see Daniel J. Hogan's webcomic on <a href="http://clattertron.com">Clattertron.com</a>. Hooray for <strong>WordPress</strong>!</p>
+    <p class="cinzel-google">This is something I wrote with the Google hosted font, Cinzel.</p>
+    <p class="da-font">Here's another font I found on DaFont. It's called Karmatic Arcade.</p>
   </body>
 </html>
